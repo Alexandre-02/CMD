@@ -60,13 +60,13 @@ Detail pagina van een album
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdown-homepagina.png" width="375px" alt="breakdown van de hele pagina met details">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### 2e pagina : 
+<img src="images/breakdown-detailpagina.png" width="375px" alt="breakdown van detailpagina">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### dynamisch deel (menu): 
+<img src="images/dynamisch-deel.png" width="375px" alt="breakdown van menu">
 
 </details>
 
