@@ -60,7 +60,7 @@ Detail pagina van een album
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdown-homepagina.png" width="375px" alt="breakdown van de hele pagina met details">
+<img src="images/breakdown-homepagina-01.png" width="375px" alt="breakdown van de hele pagina met details">
 
 ### 2e pagina : 
 <img src="images/breakdown-detailpagina.png" width="375px" alt="breakdown van detailpagina">
