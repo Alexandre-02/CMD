@@ -1,5 +1,64 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+/* reset css max width 100%  */
+
+*,html {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
 }
 
+iframe{
+  display: none;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 25px;
+  font-family: 'Barlow', sans-serif;
+  position: relative;
+}
+
+header nav ul li:nth-of-type(3){
+  position: absolute;
+  right: 1em; 
+}
+
+header nav ul li:nth-of-type(4){
+  position: absolute;
+  right:3em; 
+}
+
+h2{
+font-family: 'Barlow', sans-serif;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+}
+
+main section ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+  margin: 10px;
+}
+
+main section ul li{
+  max-width: 50%;
+
+}
+
+main h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.15em;
+}
+
+main a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
