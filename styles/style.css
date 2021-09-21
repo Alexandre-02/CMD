@@ -1,7 +1,7 @@
 /* CSS Document */
 /* reset css max width 100%  */
 
-*,html {
+*{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -12,41 +12,66 @@ iframe{
   display: none;
 }
 
+/* alle shit voor de header */
+
 header nav ul {
   display: flex;
   list-style-type: none;
-  margin-top: 25px;
-  font-family: 'Barlow', sans-serif;
+  margin-top: 2em;
   position: relative;
 }
 
+
 header nav ul li:nth-of-type(3){
   position: absolute;
-  right: 1em; 
+  right: 3em; 
 }
 
 header nav ul li:nth-of-type(4){
   position: absolute;
-  right:3em; 
+  right:1em; 
 }
 
+/* h2 */
+
 h2{
-font-family: 'Barlow', sans-serif;
 text-transform: uppercase;
 font-weight: bold;
 text-align: center;
+font-size: 1.7em;
 }
 
-main section ul{
+/* vanaf hier producten */
+
+/* ik had eerst flex-wrap wat opzich prima werkte
+maar dat is denk ik uiteindelijk lastiger voor de responsiveness */
+/* main section ul{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   text-decoration: none;
   margin: 10px;
+}  */
+
+main section ul{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap: 1em;
+  grid-auto-flow: dense;
+  list-style: none;
+  text-decoration: none;
+  margin: 1em;
 }
 
 main section ul li{
   max-width: 50%;
+  text-align: center;
+}
+
+
+main section img{
+/* waarom werkt dit percentage dan??? */
+  max-width: 200%;
 
 }
 
