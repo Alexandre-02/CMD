@@ -81,6 +81,9 @@ Detail pagina van een album
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het opstellen van de html die ik had gemaakt aan de hand van de breakdownschets ging goed. Ook 
+is het gelukt om al wat basic styling toe te voegen, bijvoorbeeld het toevoegen van het lettertype
+en het positioneren van de producten (featured merch & featured music) mbv flex-wrap: wrap;. 
 
 
 ### Agenda voor meeting
@@ -96,10 +99,14 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- html is goed opgebouwd
+- voor het uitleggen van een svg krijg je ophoging
+- header: aline items center, span op de shopping- en search-icon, 
+- toch de grootste images gebruiken, en deze dan verkleinen. 
+- geen position absolute in de header gebruiken
+- flex-gap op container of grid gebruiken voor ruimte tussen de 
+ verschillende producten. 
+- header position fixed voor gebruiken. 
 
 </details>
 
