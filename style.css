@@ -55,10 +55,11 @@ maar dat is denk ik uiteindelijk lastiger voor de responsiveness */
 
 main section ul{
   display: grid;
-  grid-template-columns:1fr 1fr;
-  /* grid-template-columns:repeat(auto-fit, minmax (360px, 1fr)); */
+  /* grid-template-columns:1fr 1fr; */
+  grid-template-columns:repeat(auto-fit, minmax(152px, 1fr));
   grid-gap: 1em;
-  grid-auto-flow: dense;
+  /* grid-auto-flow: dense; */
+  justify-items: center;
   list-style: none;
   text-decoration: none;
   margin: 1em;
@@ -66,7 +67,7 @@ main section ul{
 
 /* producten */
 main section ul li{
-  width: 100%; */
+  width: 100%;
   text-align: center;
 }
 
