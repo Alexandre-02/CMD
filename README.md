@@ -130,11 +130,12 @@ de student-assistent en de docent ben ik er wel uitgekomen.
 <img src="images/code-hamburger-menu.png" width="375px" alt="code hamburger menu html & css">
 <img src="images/hamburger-menu-java.png" width="375px" alt="hamburger menu java">
 
-### Punten waar ik feedback op zou willen
+### Punten waar ik feedback op zou willen/vragen over heb
                                                         
--
--                                                            
--
+-Het plaatsen van de mask afbeelding in de header
+-Hoe ik het moet doen met het vervangen van de iframes met afbeeldingen, verschillende afbeeldingen
+ voor verschillende groottes van het scherm misschien? Met behulp van media queries? 
+-Fixed header position lukt niet zonder alles van plek te veranderen.
                                                               
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
