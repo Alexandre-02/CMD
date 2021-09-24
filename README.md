@@ -144,6 +144,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - source set op de img, meerdere images voor verschillende groottes
 - align self of transform op de mask om deze in het midden te positioneren
 - 2e pagina niet vergeten
+- op het laatst nog opschonen waar nodig
  
 
 </details>
