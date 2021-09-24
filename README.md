@@ -121,18 +121,20 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ 
+Ik heb deze week veel geprobeerd te doen en het ging niet altijd even goed, ik heb geprobeerd een 
+hamburger menu te maken en met de tuturial van dlo kwam ik er nog niet helemaal uit. Na wat hulp van
+de student-assistent en de docent ben ik er wel uitgekomen. 
+<img src="images/hamburger-menu-voortgang" width="375px" alt="hamburger menu>
+<img src="images/code-hamburger-menu" width="375px" alt="hamburger menu code>
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
+### Punten waar ik feedback op zou willen
+                                                        
+-
+-                                                            
+-
+                                                              
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
