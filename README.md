@@ -125,8 +125,9 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 Ik heb deze week veel geprobeerd te doen en het ging niet altijd even goed, ik heb geprobeerd een 
 hamburger menu te maken en met de tuturial van dlo kwam ik er nog niet helemaal uit. Na wat hulp van
 de student-assistent en de docent ben ik er wel uitgekomen. 
-<img src="images/hamburger-menu-voortgang.png" width="375px" alt="hamburger menu>
-<img src="images/code-hamburger-menu.png" width="375px" alt="hamburger menu code>
+ 
+<img src="images/code-hamburger-menu.png" width="375px" alt="code hamburger menu html & css">
+<img src="images/hamburger-menu-voortgang.png" width="375px" alt="hamburger menu uitgeklapt">
 
 ### Punten waar ik feedback op zou willen
                                                         
