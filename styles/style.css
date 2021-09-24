@@ -5,7 +5,11 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
+}
+
+:root{
+  --colorFooter: #ededed;
 }
 
 iframe {
@@ -19,32 +23,38 @@ position: fixed;
 
 } */
 
-header nav ul {
+header nav>ul {
   display: flex;
   list-style-type: none;
-  padding-top: 2em;
   justify-content: space-between;
   align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /* groep shop en search */
-header span{
+header nav ul div {
   display: flex;
   justify-content: flex-end;
 }
 
 /* search icon */
-header nav>ul>li:nth-of-type(3) {
+header nav > ul > li:nth-of-type(3) {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 /* shopping icon */
-header nav>ul>li:nth-of-type(4) {
-  position: absolute;
+header nav > ul > li:nth-of-type(4) {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-header nav ul img{
-  width: 100px
+/* mask */
+header nav ul img {
+  width: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 /* h2 */
@@ -59,7 +69,7 @@ h2 {
 header nav ul li div ul {
   opacity: 0;
   transform: translateX(-100%);
-  transition: all .8s ease-in-out;
+  transition: all 0.8s ease-in-out;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -75,7 +85,7 @@ header nav ul li div ul {
 header nav ul li div ul li {
   height: 2em;
   align-content: center;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -83,21 +93,19 @@ header nav ul li div ul li {
 .visible {
   opacity: 1;
   transform: translateX(0%);
-  transition: all .8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 .hidden {
   opacity: 0;
   transform: translateX(-100%);
-  transition: all .8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 header button {
   background: none;
   border: none;
 }
-
-
 
 /* vanaf hier producten */
 
@@ -144,8 +152,8 @@ main button {
   height: 2.5em;
   text-align: center;
   align-items: center;
-  font-family: 'Barlow', sans-serif;
-  font-size: .9em;
+  font-family: "Barlow", sans-serif;
+  font-size: 0.9em;
   text-transform: uppercase;
   font-weight: 600;
   border: none;
@@ -156,4 +164,44 @@ main a {
   text-decoration: none;
   color: black;
   text-align: center;
+}
+
+footer{
+  background-color: var(--colorFooter);
+}
+
+footer button{
+ text-transform: uppercase;
+ border: none;
+ letter-spacing: .1em;
+ /* border-top: .15em solid #000000;
+ border-bottom: .15em solid #000000; */
+}
+
+footer ul{
+ text-align: center;
+}
+
+footer ul li{
+  padding-top: .75em;
+  padding-bottom: .75em;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color:black ;
+}
+
+footer ul li input{
+  border: none;
+  border-bottom: .15em solid black;
+  background-color: transparent;
+  padding-bottom: 1em;
+  width: 70%;
+  font-size: 1em;
+  color: black;
+}
+
+footer ul li input::placeholder{
+  color: black;
 }
