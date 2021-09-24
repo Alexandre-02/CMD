@@ -140,10 +140,9 @@ de student-assistent en de docent ben ik er wel uitgekomen.
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- div om de icons van shopping en search veranderen in een ul
+- source set op de img, meerdere images voor verschillende groottes
+- align self of transform op de mask
 
 </details>
 
