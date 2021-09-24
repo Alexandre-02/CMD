@@ -1,0 +1,207 @@
+/* CSS Document */
+/* reset css max width 100%  */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+:root{
+  --colorFooter: #ededed;
+}
+
+iframe {
+  display: none;
+}
+
+/* alle shit voor de header */
+
+/* header{
+position: fixed;
+
+} */
+
+header nav>ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* groep shop en search */
+header nav ul div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* search icon */
+header nav > ul > li:nth-of-type(3) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* shopping icon */
+header nav > ul > li:nth-of-type(4) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* mask */
+header nav ul img {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/* h2 */
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+/* hamburger menu */
+header nav ul li div ul {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.8s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 2em;
+  padding-top: 0;
+  background-color: lightgray;
+  z-index: 1;
+}
+
+header nav ul li div ul li {
+  height: 2em;
+  align-content: center;
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 0.8s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.8s ease-in-out;
+}
+
+header button {
+  background: none;
+  border: none;
+}
+
+/* vanaf hier producten */
+
+main section ul {
+  display: grid;
+  /* grid-template-columns:1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(152px, 1fr));
+  grid-gap: 1em;
+  /* grid-auto-flow: dense; */
+  justify-items: center;
+  list-style: none;
+  text-decoration: none;
+  margin: 1em;
+}
+
+/* producten */
+main section ul li {
+  width: 100%;
+  text-align: center;
+}
+
+main section img {
+  max-width: 100%;
+}
+
+main h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.15em;
+}
+
+/* button goed plaatsen */
+main div {
+  display: flex;
+  justify-content: center;
+}
+
+/* styling view all button */
+main button {
+  color: white;
+  background-color: #111111;
+  width: 7em;
+  height: 2.5em;
+  text-align: center;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  margin-bottom: 2em;
+}
+
+main a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+footer{
+  background-color: var(--colorFooter);
+}
+
+footer button{
+ text-transform: uppercase;
+ border: none;
+ letter-spacing: .1em;
+ /* border-top: .15em solid #000000;
+ border-bottom: .15em solid #000000; */
+}
+
+footer ul{
+ text-align: center;
+}
+
+footer ul li{
+  padding-top: .75em;
+  padding-bottom: .75em;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color:black ;
+}
+
+footer ul li input{
+  border: none;
+  border-bottom: .15em solid black;
+  background-color: transparent;
+  padding-bottom: 1em;
+  width: 70%;
+  font-size: 1em;
+  color: black;
+}
+
+footer ul li input::placeholder{
+  color: black;
+}
