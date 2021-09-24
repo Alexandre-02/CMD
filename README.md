@@ -142,7 +142,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - div om de icons van shopping en search veranderen in een ul
 - source set op de img, meerdere images voor verschillende groottes
-- align self of transform op de mask
+- align self of transform op de mask om deze in het midden te positioneren
+- 2e pagina niet vergeten
+ 
 
 </details>
 
