@@ -1,62 +1,110 @@
 /* CSS Document */
 /* reset css max width 100%  */
 
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
   font-family: 'Barlow', sans-serif;
 }
 
-iframe{
+iframe {
   display: none;
 }
 
 /* alle shit voor de header */
 
+/* header{
+position: fixed;
+
+} */
+
 header nav ul {
   display: flex;
   list-style-type: none;
-  margin-top: 2em;
-  position: relative;
+  padding-top: 2em;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-header nav ul li:nth-of-type(3){
-  position: absolute;
-  right: 3em; 
+/* groep shop en search */
+header span{
+  display: flex;
+  justify-content: flex-end;
 }
 
-header nav ul li:nth-of-type(4){
+/* search icon */
+header nav>ul>li:nth-of-type(3) {
+  display: flex;
+}
+
+/* shopping icon */
+header nav>ul>li:nth-of-type(4) {
   position: absolute;
-  right:1em; 
+}
+
+header nav ul img{
+  width: 100px
 }
 
 /* h2 */
-
-h2{
-text-transform: uppercase;
-font-weight: bold;
-text-align: center;
-font-size: 1.7em;
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.7em;
 }
+
+/* hamburger menu */
+header nav ul li div ul {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all .8s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 2em;
+  padding-top: 0;
+  background-color: lightgray;
+  z-index: 1;
+}
+
+header nav ul li div ul li {
+  height: 2em;
+  align-content: center;
+  font-family: 'Barlow', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all .8s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all .8s ease-in-out;
+}
+
+header button {
+  background: none;
+  border: none;
+}
+
+
 
 /* vanaf hier producten */
 
-/* ik had eerst flex-wrap wat opzich prima werkte
-maar dat is denk ik uiteindelijk lastiger voor de responsiveness */
-/* main section ul{
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  text-decoration: none;
-  margin: 10px;
-}  */
-
-main section ul{
+main section ul {
   display: grid;
   /* grid-template-columns:1fr 1fr; */
-  grid-template-columns:repeat(auto-fit, minmax(152px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(152px, 1fr));
   grid-gap: 1em;
   /* grid-auto-flow: dense; */
   justify-items: center;
@@ -66,16 +114,13 @@ main section ul{
 }
 
 /* producten */
-main section ul li{
+main section ul li {
   width: 100%;
   text-align: center;
 }
 
-
-main section img{
-/* waarom werkt dit percentage dan??? */
+main section img {
   max-width: 100%;
-
 }
 
 main h3 {
@@ -86,15 +131,15 @@ main h3 {
 }
 
 /* button goed plaatsen */
-main div  {
- display: flex;
- justify-content: center;
+main div {
+  display: flex;
+  justify-content: center;
 }
 
 /* styling view all button */
-main button{
+main button {
   color: white;
-  background-color:#111111;
+  background-color: #111111;
   width: 7em;
   height: 2.5em;
   text-align: center;
@@ -104,45 +149,11 @@ main button{
   text-transform: uppercase;
   font-weight: 600;
   border: none;
+  margin-bottom: 2em;
 }
 
 main a {
-  text-decoration:none;
+  text-decoration: none;
   color: black;
   text-align: center;
 }
-
-/* form{
-  position: fixed;
-  width: 100%;
-  left: 2em;
-  top: 2em;
-
-  transform: translateY(-100%);
-  transition: 2s;
-  z-index: 10;
-
-}
-
-.hamburgerMenuVisible form {
-  transform:translateY(0);
-}
-
-
-form {
-  width:calc(100% - 3em); height:100%;
-  max-width:25em;
-  transform:translate(-100%);
-}
-
-
-.stylePanelVisible form {
-  transform:translateX(0);
-}
-
-header li:nth-of-type(1) {
-  width:auto; height:7em;
-  line-height:2em;
-  left:100%; top:50%;
-  transform:translateY(-50%);
-} */
