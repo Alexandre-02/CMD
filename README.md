@@ -126,8 +126,9 @@ Ik heb deze week veel geprobeerd te doen en het ging niet altijd even goed, ik h
 hamburger menu te maken en met de tuturial van dlo kwam ik er nog niet helemaal uit. Na wat hulp van
 de student-assistent en de docent ben ik er wel uitgekomen. 
  
-<img src="images/code-hamburger-menu.png" width="375px" alt="code hamburger menu html & css">
 <img src="images/hamburger-menu-voortgang.png" width="375px" alt="hamburger menu uitgeklapt">
+<img src="images/code-hamburger-menu.png" width="375px" alt="code hamburger menu html & css">
+<img src="images/hamburger-menu-java.png" width="375px" alt="hamburger menu java">
 
 ### Punten waar ik feedback op zou willen
                                                         
