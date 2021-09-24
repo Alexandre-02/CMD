@@ -132,10 +132,10 @@ de student-assistent en de docent ben ik er wel uitgekomen.
 
 ### Punten waar ik feedback op zou willen/vragen over heb
                                                         
--Het plaatsen van de mask afbeelding in de header
--Hoe ik het moet doen met het vervangen van de iframes met afbeeldingen, verschillende afbeeldingen
- voor verschillende groottes van het scherm misschien? Met behulp van media queries? 
--Fixed header position lukt niet zonder alles van plek te veranderen.
+- Het plaatsen van de mask afbeelding in de header
+- Hoe ik het moet doen met het vervangen van de iframes met afbeeldingen, verschillende afbeeldingen
+  voor verschillende groottes van het scherm misschien? Met behulp van media queries? 
+- Fixed header position lukt niet zonder alles van plek te veranderen.
                                                               
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
