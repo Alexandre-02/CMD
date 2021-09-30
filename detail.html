@@ -1,222 +1,236 @@
+<!-- vragen voor in de les: Hoe kan ik van 4 columns naar 2 colums gaan voor de producten? 
+  - En van 3 naar 1 column voor de videos?
+  - hoe kan ik de videos wanneer ze in 2 column zijn centreren?  
+  - Ik heb grid gebruikt maar hij displayed nu grid op veel meer dan alleen de first child.
+  - een grote column en een kleinere column iets van 1.75 fr, 1fr en bij verkleining onder elkaar?
+  - voor keuze tussen vinyl mp3 en cd wel labels? 
+  - article onder de rest. 
+  - knop voor de verschillende foto's van mm..food album cover 
+  - list style ol van tracks geen numbered list
+  - li list style weer aanzetten werkt niet
+ -->
 <!doctype html>
 <html lang="nl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="jouw naam">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="author" content="jouw naam" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>GASDRAWLS</title>
+  <title>GASDRAWLS</title>
 
-    <link href="styles/style.css" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link href="styles/style.css" rel="stylesheet" />
+
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" />
 </head>
 
-<body>
-    <header>
-        <nav>
-          <ul>
-            <li>
-              <button class="hamburger-icon">
-                <svg
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                  focusable="false"
-                  role="presentation"
-                  viewBox="0 0 64 64"
-                  width="28"
-                  height="28"
-                >
-                  <path
-                    d="M7 15h51M7 32h43M7 49h51"
-                    stroke="#000000"
-                    fill="none"
-                    stroke-width="2px"
-                  ></path>
-                </svg>
-              </button>
-              <div>
-                <ul>
-                  <li>
-                    <button>
-                      <svg
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden="true"
-                        focusable="false"
-                        role="presentation"
-                        class="icon-close"
-                        viewBox="0 0 64 64"
-                        width="28"
-                        height="28"
-                      >
-                        <path
-                          d="M19 17.61l27.12 27.13m0-27.12L19 44.74"
-                          stroke="#000000"
-                          fill="none"
-                          stroke-width="2px"
-                        ></path>
-                      </svg>
-                    </button>
-                  </li>
-                  <li>shop</li>
-                  <li>stream</li>
-                  <li>events</li>
-                  <li>contact</li>
-                  <li>faq</li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <a href="index.html">
-                <img src="images/mask.png" alt="mask" />
-              </a>
-            </li>
-            <div>
+<body class="detailPagina">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <button aria-hidden="true" class="hamburger-icon">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+              focusable="false" role="presentation" viewBox="0 0 64 64" width="28" height="28">
+              <path d="M7 15h51M7 32h43M7 49h51" stroke="#000000" fill="none" stroke-width="2px"></path>
+            </svg>
+          </button>
+          <div>
+            <ul>
               <li>
-                <a href="">
-                  <svg
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    focusable="false"
-                    role="presentation"
-                    class="icon icon-search"
-                    viewBox="0 0 64 64"
-                    width="28"
-                    height="28"
-                  >
-                    <path
-                      d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"
-                      stroke="#000000"
-                      fill="none"
-                      stroke-width="2px"
-                    ></path>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                    <svg
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    focusable="false"
-                    role="presentation"
-                    class="icon icon-bag"
-                    viewBox="0 0 64 64"
-                    width="28"
-                    height="28"
-                  >
-                    <g fill="none" stroke="#000000" stroke-width="2px">
-                      <path
-                        d="M25 26c0-15.79 3.57-20 8-20s8 4.21 8 20"
-                        stroke="#000000"
-                        fill="none"
-                        stroke-width="2px"
-                      ></path>
-                      <path
-                        d="M14.74 18h36.51l3.59 36.73h-43.7z"
-                        stroke="#000000"
-                        fill="none"
-                        stroke-width="2px"
-                      ></path>
-                    </g>
-                  </svg>
-                </a>
-              </li>
-            </div>
-          </ul>
-        </nav>
-      </header>
-    <main>
-        <section>
-            <img src="" alt="">
-            <h2>mm..food</h2>
-            <p>$12.00</p>
-            <label for="">Format</label>
-            <fieldset>
-                <label for="">Vinyl</label>
-                <label for="">CD</label>
-                <label for="">MP3</label>
-            </fieldset>
-            <div>
-                <button>add to cart</button>
-                <button>Buy with PayPal</button>
-                <button>More payment options</button>
-            </div>
-        </section>
-        <section>
-
-        </section>
-        <article>
-            <p>
-                After re-launching his career in the late nineties with a string of singles on Fondle Em Records,
-                leading up to the instant-classic Operation: Doomsday album, MF DOOM relentlessly pushed forward, always
-                innovating along the way, building what has become one of the most storied and revered careers in the
-                world of Hip Hop.
-
-                One apex point along that journey took place circa 2003/2004 with DOOM releasing Viktor Vaughn Parts 1 &
-                2, Madvillainy with Madlib (a legend in his own right), King Geedorah’s Take Me To Your Leader, and
-                MM..FOOD all in that short and explosive timeframe. While all of those projects have been revered by
-                fans and critics alike, MM..FOOD is the only album that officially exists as the proper follow-up to
-                Operation: Doomsday.
-
-                MM..FOOD finds DOOM digging deep into vocal soundbytes related, as well as fitting to his namesake and
-                artistic vision, meticulously building a cohesive album narrative. Diligence in mind, his writing is as
-                sharp, witty and often shocking as ever. Production-wise, DOOM utilizes a fine blend of familiar and
-                obscure sample sources, complimentarily working together to both satisfy and intrigue.
-
-                And, while MM..FOOD is mostly the work of a mad scientist in his secret lair, a sprinkling of
-                super-villain team ups with Count Bass D, Madlib, PNS of The Molemen, Stahhr, and Mr. Fantastik, all add
-                to the album's overall flavor.
-
-                Even after all these years MM..FOOD remains a satisfying feast for both returning true believers, as
-                well as herds of new fans who happily and eventually find their listening ears in the clutches of DOOM.
-            </p>
-            <p>
-                Vinyl Packaging: Custom green & pink double vinyl with 12” tip-on gatefold jacket, dust sleeves, and
-                free digital download card
-            </p>
-            <p>
-                Track listing:
-            </p>
-            <ol>
-                <li>Beef Rapp</li>
-                <li>Hoe Cakes</li>
-                <li>Potholderz feat. Count Bass D</li>
-                <li>One Beer</li>
-                <li>Deep Fried Frenz</li>
-                <li>Poo-Putt Platter</li>
-                <li>Gumbo</li>
-                <li>Fig Leaf Bi-Carbonate</li>
-                <li>Kon Karne</li>
-                <li>Guinnesses feat. Angelika & 4ize</li>
-                <li>Kon Queso</li>
-                <li>Rapp Snitch Knishes feat. Mr. Fantastik</li>
-                <li>Vomitspit</li>
-                <li>Kookies</li>
-            </ol>
-        </article>
-    </main>
-    <footer>
-        <ul>
-            <li>
-                <a href="">Search</a>
-            </li>
-            <li>
-                <a href="">FAQ</a>
-            </li>
-            <li>
                 <button>
-                    join the mf doom email list
+                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                    focusable="false" role="presentation" class="icon-close" viewBox="0 0 64 64" width="28" height="28">
+                    <path d="M19 17.61l27.12 27.13m0-27.12L19 44.74" stroke="#000000" fill="none" stroke-width="2px">
+                    </path>
+                  </svg>
                 </button>
-            </li>
+              </li>
+              <a href="#">
+                <li>shop</li>
+              </a>
+              <a href="#">
+                <li>stream</li>
+              </a>
+              <a href="#">
+                <li>events</li>
+              </a>
+              <a href="#">
+                <li>contact</li>
+              </a>
+              <a href="#">
+                <li>faq</li>
+              </a>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="index.html">
+            <img src="images/mask.png" alt="mask" />
+          </a>
+        </li>
+        <ul>
+          <li>
+            <a href="">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64" width="28"
+                height="28">
+                <path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"
+                  stroke="#000000" fill="none" stroke-width="2px"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                focusable="false" role="presentation" class="icon icon-bag" viewBox="0 0 64 64" width="28" height="28">
+                <g fill="none" stroke="#000000" stroke-width="2px">
+                  <path d="M25 26c0-15.79 3.57-20 8-20s8 4.21 8 20" stroke="#000000" fill="none" stroke-width="2px">
+                  </path>
+                  <path d="M14.74 18h36.51l3.59 36.73h-43.7z" stroke="#000000" fill="none" stroke-width="2px"></path>
+                </g>
+              </svg>
+            </a>
+          </li>
         </ul>
-    </footer>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <section>
+        <img src="images/mmfood-pic1.jpg" alt="mmfood album cover">
+      </section>
+      <section>
+        <h2>mm..food</h2>
+        <p>$35.00</p>
+        <label for="">Format</label>
+        <fieldset>
+          <label for="">Vinyl</label>
+          <label for="">CD</label>
+          <label for="">MP3</label>
+        </fieldset>
+        <div>
+          <button>add to cart</button>
+          <button>Buy with PayPal</button>
+          <button>More payment options</button>
+        </div>
+      </section>
+      <article>
+        <p>
+          After re-launching his career in the late nineties with a string of singles on Fondle Em Records,
+          leading up to the instant-classic Operation: Doomsday album, MF DOOM relentlessly pushed forward, always
+          innovating along the way, building what has become one of the most storied and revered careers in the
+          world of Hip Hop.
+        </p>
+        <p>
+          One apex point along that journey took place circa 2003/2004 with DOOM releasing Viktor Vaughn Parts 1 &
+          2, Madvillainy with Madlib (a legend in his own right), King Geedorah’s Take Me To Your Leader, and
+          MM..FOOD all in that short and explosive timeframe. While all of those projects have been revered by
+          fans and critics alike, MM..FOOD is the only album that officially exists as the proper follow-up to
+          Operation: Doomsday.
+        </p>
+        <p>
+          MM..FOOD finds DOOM digging deep into vocal soundbytes related, as well as fitting to his namesake and
+          artistic vision, meticulously building a cohesive album narrative. Diligence in mind, his writing is as
+          sharp, witty and often shocking as ever. Production-wise, DOOM utilizes a fine blend of familiar and
+          obscure sample sources, complimentarily working together to both satisfy and intrigue.
+        </p>
+        <p>
+          And, while MM..FOOD is mostly the work of a mad scientist in his secret lair, a sprinkling of
+          super-villain team ups with Count Bass D, Madlib, PNS of The Molemen, Stahhr, and Mr. Fantastik, all add
+          to the album's overall flavor.
+        </p>
+        <p>
+          Even after all these years MM..FOOD remains a satisfying feast for both returning true believers, as
+          well as herds of new fans who happily and eventually find their listening ears in the clutches of DOOM.
+        </p>
+        <p>
+          Vinyl Packaging: Custom green & pink double vinyl with 12” tip-on gatefold jacket, dust sleeves, and
+          free digital download card
+        </p>
+        <p>
+          Track listing:
+        </p>
+        <ol>
+          <li>Beef Rapp</li>
+          <li>Hoe Cakes</li>
+          <li>Potholderz feat. Count Bass D</li>
+          <li>One Beer</li>
+          <li>Deep Fried Frenz</li>
+          <li>Poo-Putt Platter</li>
+          <li>Gumbo</li>
+          <li>Fig Leaf Bi-Carbonate</li>
+          <li>Kon Karne</li>
+          <li>Guinnesses feat. Angelika & 4ize</li>
+          <li>Kon Queso</li>
+          <li>Rapp Snitch Knishes feat. Mr. Fantastik</li>
+          <li>Vomitspit</li>
+          <li>Kookies</li>
+        </ol>
+      </article>
+    </section>
+    <h2>you may also like</h2>
+    <ul>
+      <li>
+        <a href="">
+          <img src="" alt="">
+          <h3>madvillain - madvillainy</h3>
+          <p>from $16.00</p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="" alt="">
+          <h3>operation: doomsday (alternate cover vinyl)</h3>
+          <p>$35.00</p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="" alt="">
+          <h3>operation: doomsday (cd)</h3>
+          <p>$20.00</p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="" alt="">
+          <h3>special herbs 9 & 0</h3>
+          <p>$20.00</p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="" alt="">
+          <h3>operation: doomsday (vinyl)</h3>
+          <p>$35.00</p>
+        </a>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <ul>
+      <li>
+        <a href="">Search</a>
+      </li>
+      <li>
+        <a href="">FAQ</a>
+      </li>
+      <li>
+        <button>join the mf doom email list</button>
+      </li>
+      <li>
+        <input type="text" name="Enter your email" id="email" placeholder="Enter your email" />
+      </li>
+    </ul>
+  </footer>
 
-    <script src="scripts/script.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
