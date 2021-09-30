@@ -2,30 +2,31 @@
 /* reset css max width 100%  */
 
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0em;
+  margin: 0em;
   box-sizing: border-box;
   font-family: "Barlow", sans-serif;
 }
 
-:root{
+:root {
   --colorFooter: #ededed;
-}
-
-iframe {
-  display: none;
+  --primaryColor: #111111;
+  --hamburgerBackgroundColor: lightgray;
+  --backgroundColor: white;
+  --buttonBackgroundColor: black;
 }
 
 /* alle shit voor de header */
 
-/* header{
-position: fixed;
-
-} */
+header nav {
+  position: fixed;
+  background-color: var(--backgroundColor);
+  width: 100%;
+}
 
 header nav>ul {
   display: flex;
-  list-style-type: none;
+  list-style: none;
   justify-content: space-between;
   align-items: center;
   margin-left: 1em;
@@ -33,19 +34,19 @@ header nav>ul {
 }
 
 /* groep shop en search */
-header nav ul div {
+header nav ul ul {
   display: flex;
-  justify-content: flex-end;
+  list-style: none;
 }
 
 /* search icon */
-header nav > ul > li:nth-of-type(3) {
+header nav>ul>li:nth-of-type(3) {
   display: flex;
   flex-direction: row-reverse;
 }
 
 /* shopping icon */
-header nav > ul > li:nth-of-type(4) {
+header nav>ul>li:nth-of-type(4) {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -58,11 +59,13 @@ header nav ul img {
 }
 
 /* h2 */
-h2 {
+.homepage h2 {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   font-size: 1.7em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
 }
 
 /* hamburger menu */
@@ -78,18 +81,29 @@ header nav ul li div ul {
   bottom: 0;
   right: 2em;
   padding-top: 0;
-  background-color: lightgray;
+  background-color: var(--hamburgerBackgroundColor);
   z-index: 1;
 }
 
+/* styling v elementen in hamburgermenu geen: 'header nav ul li div ul a li' gebruikt omdat de button
+anders geen padding krijgt */
 header nav ul li div ul li {
   height: 2em;
   align-content: center;
   font-family: "Barlow", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
+  padding-left: 1em;
+  padding-top: 1em;
+  color: var(--primaryColor);
 }
 
+/* underline in hamburgermenu links weghalen */
+header nav ul li div ul a {
+  text-decoration: none;
+}
+
+/* verschijnen en verdwijnen v hamburgermenu */
 .visible {
   opacity: 1;
   transform: translateX(0%);
@@ -102,12 +116,17 @@ header nav ul li div ul li {
   transition: all 0.8s ease-in-out;
 }
 
+/* styling hamburger button weghalen */
 header button {
   background: none;
   border: none;
 }
 
 /* vanaf hier producten */
+/* plaatsen van de main onder de header ivm fixed haeder */
+main {
+  padding-top: 4em;
+}
 
 main section ul {
   display: grid;
@@ -145,12 +164,13 @@ main div {
 }
 
 /* styling view all button */
-main button {
+main section div a {
   color: white;
-  background-color: #111111;
+  background-color: var(--primaryColor);
   width: 7em;
   height: 2.5em;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
   font-family: "Barlow", sans-serif;
   font-size: 0.9em;
@@ -158,50 +178,112 @@ main button {
   font-weight: 600;
   border: none;
   margin-bottom: 2em;
+  cursor: pointer;
 }
 
+/* tekst onder producten stylen */
 main a {
   text-decoration: none;
-  color: black;
+  color: var(--primaryColor);
   text-align: center;
 }
 
-footer{
+/* positioning van fake iframes */
+main section section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 1em;
+  margin: 1em;
+}
+
+/* direct child vd main padding en border voor betere layout */
+main>section {
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--primaryColor);
+}
+
+/* main section section img{
+
+} */
+
+/* nog te doen: yt vids van 3 columns naar 1 colums, colums centreren. */
+
+main section:last-child section {
+  display: grid;
+  place-self: center;
+}
+
+footer {
   background-color: var(--colorFooter);
 }
 
-footer button{
- text-transform: uppercase;
- border: none;
- letter-spacing: .1em;
- /* border-top: .15em solid #000000;
- border-bottom: .15em solid #000000; */
+footer button {
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: .1em;
 }
 
-footer ul{
- text-align: center;
+footer ul {
+  text-align: center;
 }
 
-footer ul li{
+footer ul li {
   padding-top: .75em;
   padding-bottom: .75em;
 }
 
-footer ul li a{
+footer ul li a {
   text-decoration: none;
-  color:black ;
+  color: var(--primaryColor);
 }
 
-footer ul li input{
+footer ul li input {
   border: none;
-  border-bottom: .15em solid black;
+  border-bottom: .1em solid black;
   background-color: transparent;
   padding-bottom: 1em;
   width: 70%;
   font-size: 1em;
-  color: black;
+  color: var(--primaryColor);
 }
 
-footer ul li input::placeholder{
-  color: black;
+footer ul li input::placeholder {
+  color: var(--primaryColor);
+}
+
+
+/* 2e pagina (mm..food) */
+
+.detailPagina p{
+  margin: 1em;
+}
+
+.detailPagina main>section {
+  display: grid;
+  /* grid-template-columns: 1.75fr 1fr ; */
+  grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+  grid-gap: 1em;
+}
+
+/* waarom lukt de span niet??! */
+/* .detailPagina main>section>section {
+  grid-column:span 2;
+} */
+
+
+.detailPagina h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.7em;
+  margin-top: 1.5em;
+}
+
+ol li{
+  /* https://stackoverflow.com/questions/2642067/ordered-list-ol-showing-up-un-numbered */
+ display: list-item;
+}
+
+a :hover{
+  scale: 1.5x;
 }
