@@ -85,17 +85,6 @@ Het opstellen van de html die ik had gemaakt aan de hand van de breakdownschets 
 is het gelukt om al wat basic styling toe te voegen, bijvoorbeeld het toevoegen van het lettertype
 en het positioneren van de producten (featured merch & featured music) mbv flex-wrap: wrap;. 
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
@@ -109,10 +98,6 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - header position fixed voor gebruiken. 
 
 </details>
-
-
-
-
 
 ## Voortgang 2 (week 3)
 
@@ -150,9 +135,6 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 </details>
 
 
-
-
-
 ## Toegankelijkheidstest (week 4)
 
 <details>
@@ -160,12 +142,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+ - wanneer je op buttons zoals het hamburgermenu klikt weet je niet wat voor button het is 
+   bij het gebruik van een screenreader
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
 
 #### Titel tweede bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
@@ -201,13 +184,6 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 ### Agenda voor meeting
 samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
