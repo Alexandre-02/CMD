@@ -199,8 +199,10 @@ Dit ging er goed:
  Dit ging er lastiger:
 - het goed positioneren van foto met hiernaast de rest van de content/beschrijving van het product. En dat de rest van de content bij 
   verkleining van het scherm ook onder de foto terecht komt. 
-  Daarvoor hieronder de code:
+  Het resultaat wat ik samen met wat hulp van de student-assistent heb bereikt is hieronder te zie:
+ 
   <img src="images/detailpagina-ss-progress.png" width="250px" alt="detailpagina grid">
+ 
   Dit ga ik toch nog moeten veranderen, momenteel maak ik namelijk gebruik van dit als code voor de grid : 'grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));'
   alleen dan kan ik niet nog de columns individueel groter of kleiner maken, wat ik dus ga doen is dit vervangen met media queries. Op deze manier zou het wel moeten 
   lukken.
