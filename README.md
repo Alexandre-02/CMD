@@ -196,6 +196,17 @@ Dit ging er goed:
  Daarvoor hieronder de code:
  <img src="images/code-picture-srcset.png" width="250px" alt="code picture srcset">
 
+ Dit ging er lastiger:
+- het goed positioneren van foto met hiernaast de rest van de content/beschrijving van het product. En dat de rest van de content bij 
+  verkleining van het scherm ook onder de foto terecht komt. 
+  Daarvoor hieronder de code:
+  <img src="images/detailpagina-ss-progress.png" width="250px" alt="detailpagina grid">
+  Dit ga ik toch nog moeten veranderen, momenteel maak ik namelijk gebruik van dit als code voor de grid : 'grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));'
+  alleen dan kan ik niet nog de columns individueel groter of kleiner maken, wat ik dus ga doen is dit vervangen met media queries. Op deze manier zou het wel moeten 
+  lukken.
+- Ook heb ik het probleem dat mijn ordered list op een klein scherm de nummers niet toont. Ik denk dat dit simpelweg op te lossen is door een margin of padding left toe 
+  te voegen, maar di weet ik nog niet zeker. Ik heb namelijk nog niet de mogelijkheid gekregen om dit element te stylen.
+ 
 
 
 
