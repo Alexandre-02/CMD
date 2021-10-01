@@ -183,14 +183,21 @@ wel de links in de navigatie weten. Als dit toch zou moeten worden opgelosten wo
 ## Voortgang 3 (week 4)
 
 <details>
+ 
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb deze week weer veel progressie gemaakt, wel liep ik tegen een aantal obstakels aan. Gelukkig heeft de student-assistent 
+mij weer goed verder kunnen helpen. 
+
+Dit ging er goed:
+- het gebruiken van het picture element in combinatie met srcset en img om verschillende foto's te hebben voor verschillende 
+ schermgroottes. 
+ Daarvoor hieronder de code:
+ <img src="images/code-picture-srcset.png" width="250px" alt="code picture srcset">
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
+
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
