@@ -14,6 +14,9 @@
   --hamburgerBackgroundColor: lightgray;
   --backgroundColor: white;
   --buttonBackgroundColor: black;
+  --buttonTextColor: white;
+  --altTextColor:#111111 ;
+  --altBackgroundColor: lightgray;
 }
 
 /* alle shit voor de header */
@@ -44,6 +47,10 @@ header nav>ul>li:nth-of-type(3) {
   display: flex;
   flex-direction: row-reverse;
 }
+
+/* header svg:hover{
+  transform: scale(1.5);
+} */
 
 /* shopping icon */
 header nav>ul>li:nth-of-type(4) {
@@ -122,6 +129,12 @@ header button {
   border: none;
 }
 
+/* header button:hover{
+  transform: scale(1.5);
+}  */
+
+
+
 /* vanaf hier producten */
 /* plaatsen van de main onder de header ivm fixed haeder */
 main {
@@ -165,7 +178,7 @@ main div {
 
 /* styling view all button */
 main section div a {
-  color: white;
+  color: var(--buttonTextColor);
   background-color: var(--primaryColor);
   width: 7em;
   height: 2.5em;
@@ -181,6 +194,12 @@ main section div a {
   cursor: pointer;
 }
 
+/* hover van de view all a */
+main section div :hover {
+  color: var(--altTextColor);
+  background-color: var(--altBackgroundColor);
+}
+
 /* tekst onder producten stylen */
 main a {
   text-decoration: none;
@@ -189,8 +208,9 @@ main a {
 }
 
 /* positioning van fake iframes */
-main section section {
+.homepage main section section {
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   grid-gap: 1em;
   margin: 1em;
@@ -202,9 +222,9 @@ main>section {
   border-bottom: 1px solid var(--primaryColor);
 }
 
-/* main section section img{
-
-} */
+main section  img{
+width: 100%;
+}
 
 /* nog te doen: yt vids van 3 columns naar 1 colums, colums centreren. */
 
@@ -251,25 +271,16 @@ footer ul li input::placeholder {
   color: var(--primaryColor);
 }
 
-
 /* 2e pagina (mm..food) */
-
 .detailPagina p{
   margin: 1em;
 }
 
-.detailPagina main>section {
+/* .detailPagina main>section */
+.detailPagina main section{
   display: grid;
-  /* grid-template-columns: 1.75fr 1fr ; */
   grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
-  grid-gap: 1em;
 }
-
-/* waarom lukt de span niet??! */
-/* .detailPagina main>section>section {
-  grid-column:span 2;
-} */
-
 
 .detailPagina h2 {
   text-transform: uppercase;
@@ -279,11 +290,7 @@ footer ul li input::placeholder {
   margin-top: 1.5em;
 }
 
-ol li{
-  /* https://stackoverflow.com/questions/2642067/ordered-list-ol-showing-up-un-numbered */
- display: list-item;
-}
-
-a :hover{
-  scale: 1.5x;
-}
+/* a :hover{
+  transform: scale(1.1);
+  transition: transform .2s;
+} */
