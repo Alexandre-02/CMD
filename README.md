@@ -209,6 +209,9 @@ Dit ging er goed:
 - Ook heb ik het probleem dat mijn ordered list op een klein scherm de nummers niet toont. Ik denk dat dit simpelweg op te lossen is door een margin of padding left toe 
   te voegen, maar di weet ik nog niet zeker. Ik heb namelijk nog niet de mogelijkheid gekregen om dit element te stylen.
  
+- het centreren van de neppe Youtube players wanneer deze in 1 column zijn was mij ook niet gelukt. Uiteindelijk bleek de oplossing toch erg simpel namelijk alleen maar 
+  de lijn code 'place-self: center;'
+ 
 
 
 
