@@ -218,10 +218,14 @@ Dit ging er goed:
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Het centreren van de mask in de header kan je doen door de button van het hamburgermenu een beetje margin-right te geven.
+- Dat het niet goed werkt op iphone 5/se grootte komt door de code 'grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));' , dit is op te lossen door 
+  media queries te gebruiken. -> media query(1px 1fr) en dan op 320px breedte (grootte vh scherm) aanpassen naar 10em 1fr.
+- Aria-labels gebruiken voor de svg, kijken naar artikel: https://css-tricks.com/accessible-svgs/
+- De grid-template-columns: repeat(auto-fit, minmax(30em, 1fr)); op de detailpagina vervangen met een media query dan werkt de img wel normaal en kan je ook 
+  de img meer ruimte geven ten opzichte van de tekst die hiernaast moet komen te staan.
+- Nog even goed het beoordelingsformulier bekijken om te kijken of ik iets heb gemist.
+- Niet vergeten dat ik ophoging kan krijgen als ik svg's kan uitleggen. 
 
 </details>
 
