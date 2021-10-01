@@ -142,35 +142,42 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
- - wanneer je op buttons zoals het hamburgermenu klikt weet je niet wat voor button het is 
+ - wanneer je op buttons zoals het hamburgermenu (oftewel buttons zonder tekst) klikt weet je niet wat voor button het is 
    bij het gebruik van een screenreader
+ - De focus tijdens het tabben is vaak nog niet helemaal duidelijk, voornamelijk bij de 
+   'view all' button niet. 
+ - Wanneer je begint te tabben op de pagina tab je ook naar de links in het hamburgermenu wanneer deze niet zichtbaar is.
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Tab op buttons zonder tekst 
+wanneer je op buttons zoals het hamburgermenu klikt weet je niet wat voor button het is 
+bij het gebruik van een screenreader
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Hoe het opgelost kan worden: 
+met behulp van 'aria-label' kan je elementen een tekst meegeven die screenreaders gebruiken 
+om het element te beschrijven.  
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Focus niet altijd duidelijk 
+De focus tijdens het tabben is vaak nog niet helemaal duidelijk, voornamelijk bij de 
+'view all' button niet. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Hoe het opgelost kan worden:
+in de css moet ik nog even een aantal elementen een goede styling geven voor de :focus, 
+de focus moet zodanig anders zijn van de default state dat het duidelijk te zien is wanneer
+er op het element getabbed wordt. 
+hieronder is het momentele verschil tussen de default- en focus-state te zien:
+ 
+<img src="images/before-focus-button.png" width="150px" alt="button before focus">
+<img src="images/before-after-button.png" width="150px" alt="button after focus">
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### tabben naar links in het hamburgermenu wanneer deze niet zichtbaar zijn. 
+Wanneer je begint te tabben op de pagina tab je ook naar de links in het hamburgermenu wanneer deze niet zichtbaar is.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Hoe het opgelost kan worden:
+Ik heb hier kort even met de docent over gehad en eigenlijk moet dit helemaal niet opgelost worden, blinden willen namelijk
+wel de links in de navigatie weten. Als dit toch zou moeten worden opgelosten worden dan is dit mogelijk met 'tab-index'.
 
 </details>
-
-
-
 
 
 ## Voortgang 3 (week 4)
