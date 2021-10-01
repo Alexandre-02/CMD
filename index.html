@@ -1,217 +1,311 @@
 <!DOCTYPE html>
 <html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="jouw naam" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="author" content="jouw naam" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GASDRAWLS</title>
 
-  <title>GASDRAWLS</title>
+    <link href="styles/style.css" rel="stylesheet" />
 
-  <link href="styles/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body class="homepage">
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <button aria-label='hamburger menu' aria-hidden="true" class="hamburger-icon">
-            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-              focusable="false" role="presentation" viewBox="0 0 64 64" width="28" height="28">
-              <path d="M7 15h51M7 32h43M7 49h51" stroke="#000000" fill="none" stroke-width="2px"></path>
-            </svg>
-          </button>
-          <div>
-            <ul>
-              <li>
-                <button aria-label="close hamburger menu">
-                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                    focusable="false" role="presentation" class="icon-close" viewBox="0 0 64 64" width="28" height="28">
-                    <path d="M19 17.61l27.12 27.13m0-27.12L19 44.74" stroke="#000000" fill="none" stroke-width="2px">
-                    </path>
-                  </svg>
-                </button>
-              </li>
-              <a href="#">
-                <li>shop</li>
-              </a>
-              <a href="#">
-                <li>stream</li>
-              </a>
-              <a href="#">
-                <li>events</li>
-              </a>
-              <a href="#">
-                <li>contact</li>
-              </a>
-              <a href="#">
-                <li>faq</li>
-              </a>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <a href="index.html">
-            <img src="images/mask.png" alt="mask" />
-          </a>
-        </li>
+  <body class="homepage">
+    <header>
+      <nav>
         <ul>
           <li>
-            <a href="">
-              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64" width="28"
-                height="28">
-                <path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"
-                  stroke="#000000" fill="none" stroke-width="2px"></path>
+            <button
+              aria-label="hamburger menu"
+              aria-hidden="true"
+              class="hamburger-icon"
+            >
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 64 64"
+                width="28"
+                height="28"
+              >
+                <path
+                  d="M7 15h51M7 32h43M7 49h51"
+                  stroke="#000000"
+                  fill="none"
+                  stroke-width="2px"
+                ></path>
               </svg>
-            </a>
+            </button>
+            <div>
+              <ul>
+                <li>
+                  <button aria-label="close hamburger menu">
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                      focusable="false"
+                      role="presentation"
+                      class="icon-close"
+                      viewBox="0 0 64 64"
+                      width="28"
+                      height="28"
+                    >
+                      <path
+                        d="M19 17.61l27.12 27.13m0-27.12L19 44.74"
+                        stroke="#000000"
+                        fill="none"
+                        stroke-width="2px"
+                      ></path>
+                    </svg>
+                  </button>
+                </li>
+                <a href="#">
+                  <li>shop</li>
+                </a>
+                <a href="#">
+                  <li>stream</li>
+                </a>
+                <a href="#">
+                  <li>events</li>
+                </a>
+                <a href="#">
+                  <li>contact</li>
+                </a>
+                <a href="#">
+                  <li>faq</li>
+                </a>
+              </ul>
+            </div>
           </li>
           <li>
-            <a href="">
-              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                focusable="false" role="presentation" class="icon icon-bag" viewBox="0 0 64 64" width="28" height="28">
-                <g fill="none" stroke="#000000" stroke-width="2px">
-                  <path d="M25 26c0-15.79 3.57-20 8-20s8 4.21 8 20" stroke="#000000" fill="none" stroke-width="2px">
-                  </path>
-                  <path d="M14.74 18h36.51l3.59 36.73h-43.7z" stroke="#000000" fill="none" stroke-width="2px"></path>
-                </g>
-              </svg>
+            <a href="index.html">
+              <img src="images/mask.png" alt="mask" />
+            </a>
+          </li>
+          <ul>
+            <li>
+              <a href="">
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                  role="presentation"
+                  class="icon icon-search"
+                  viewBox="0 0 64 64"
+                  width="28"
+                  height="28"
+                >
+                  <path
+                    d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"
+                    stroke="#000000"
+                    fill="none"
+                    stroke-width="2px"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                  role="presentation"
+                  class="icon icon-bag"
+                  viewBox="0 0 64 64"
+                  width="28"
+                  height="28"
+                >
+                  <g fill="none" stroke="#000000" stroke-width="2px">
+                    <path
+                      d="M25 26c0-15.79 3.57-20 8-20s8 4.21 8 20"
+                      stroke="#000000"
+                      fill="none"
+                      stroke-width="2px"
+                    ></path>
+                    <path
+                      d="M14.74 18h36.51l3.59 36.73h-43.7z"
+                      stroke="#000000"
+                      fill="none"
+                      stroke-width="2px"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- section met merch -->
+      <section>
+        <h2>featured merch</h2>
+        <ul>
+          <!-- eerste item -->
+          <li>
+            <a href="#">
+              <img
+                src="images/360/DOOM_BLKS_MOCK_1_360x.jpg"
+                alt="elemental t-shirt"
+              />
+              <h3>elemental</h3>
+              <p>$40.00</p>
+            </a>
+          </li>
+          <!-- tweede item -->
+          <li>
+            <a href="#">
+              <img
+                src="images/360/DOOMWEB_BLK_HOOD_360x.png"
+                alt="blk hoodie"
+              />
+              <h3>nyc blk</h3>
+              <p>$95.00</p>
+            </a>
+          </li>
+          <!-- derde item -->
+          <li>
+            <a href="#">
+              <img
+                src="images/360/DOOMWEB_L_YLW_FRONT_360x.png"
+                alt="L t-shirt"
+              />
+              <h3>pass the l - marigold</h3>
+              <p>$40.00</p>
+            </a>
+          </li>
+          <!-- vierde items -->
+          <li>
+            <a href="#">
+              <img src="images/360/DOOMWEB_HAT_360x.png" alt="blk hat" />
+              <h3>nyc blk hat</h3>
+              <p>$30.00</p>
             </a>
           </li>
         </ul>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <!-- section met merch -->
-    <section>
-      <h2>featured merch</h2>
-      <ul>
-        <!-- eerste item -->
-        <li>
-          <a href="">
-            <img src="images/360/DOOM_BLKS_MOCK_1_360x.jpg" alt="elemental t-shirt" />
-            <h3>elemental</h3>
-            <p>$40.00</p>
-          </a>
-        </li>
-        <!-- tweede item -->
-        <li>
-          <a href="">
-            <img src="images/360/DOOMWEB_BLK_HOOD_360x.png" alt="blk hoodie" />
-            <h3>nyc blk</h3>
-            <p>$95.00</p>
-          </a>
-        </li>
-        <!-- derde item -->
-        <li>
-          <a href="">
-            <img src="images/360/DOOMWEB_L_YLW_FRONT_360x.png" alt="L t-shirt" />
-            <h3>pass the l - marigold</h3>
-            <p>$40.00</p>
-          </a>
-        </li>
-        <!-- vierde items -->
-        <li>
-          <a href="">
-            <img src="images/360/DOOMWEB_HAT_360x.png" alt="blk hat" />
-            <h3>nyc blk hat</h3>
-            <p>$30.00</p>
-          </a>
-        </li>
-      </ul>
-      <div>
-        <a href="#">view all</a>
-      </div>
-    </section>
-    <!-- section met music -->
-    <section>
-      <h2>featured music</h2>
-      <ul>
-        <!-- eerste item -->
-        <li>
-          <a href="detail.html">
-            <img src="images/360/mmfood-360.jpeg" alt="mm..food" />
-            <h3>mm..food</h3>
-            <p>from $8.00</p>
-          </a>
-        </li>
-        <!-- tweede item -->
-        <li>
-          <a href="">
-            <img src="images/360/superwhat-360.jpeg" alt="super what?" />
-            <h3>czarface and mf doom - super what?</h3>
-            <p>from $17.00</p>
-          </a>
-        </li>
-        <!-- derde item -->
-        <li>
-          <a href="">
-            <img src="images/360/doomsday-360.jpeg" alt="operation doomsday" />
-            <h3>operation doomsday (vinyl)</h3>
-            <p>$35.00</p>
-          </a>
-        </li>
-        <!-- vierde items -->
-        <li>
-          <a href="">
-            <img src="images/360/madvilliany-360.webp" alt="madvillainy" />
-            <h3>madvillain - madvillainy</h3>
-            <p>from $16.00</p>
-          </a>
-        </li>
-      </ul>
-      <div>
-        <a href="#  ">view all</a>
-      </div>
-    </section>
-    <section>
-      <h2>listen</h2>
-      <section>
-        <picture>
-          <source media="(min-width:40em)" srcset="images/spotifyplayer-big.png">
-          <img src="images/spotifyplayer-small.png" alt="spotify player small">
-        </picture>
-        <picture>
-          <source media="(min-width:40em)" srcset="images/appleplayer-big.png">
-          <img src="images/appleplayer-small.png" alt="apple player small">
-        </picture>
+        <div>
+          <a href="#">view all</a>
+        </div>
       </section>
-    </section>
-    <section>
-      <h2>watch</h2>
+      <!-- section met music -->
       <section>
-        <img src="images/accordion-player-small.png" alt="accordion YouTube player">
-        <img src="images/guvnor-player-small.png" alt="guvnor YouTube player">
-        <img src="images/bookhead-player-small.png" alt="bookhead Youtube player">
+        <h2>featured music</h2>
+        <ul>
+          <!-- eerste item -->
+          <li>
+            <a href="detail.html">
+              <img src="images/360/mmfood-360.jpeg" alt="mm..food" />
+              <h3>mm..food</h3>
+              <p>from $8.00</p>
+            </a>
+          <!-- tweede item -->
+          <li>
+            <a href="#">
+              <img src="images/360/superwhat-360.jpeg" alt="super what?" />
+              <h3>czarface and mf doom - super what?</h3>
+              <p>from $17.00</p>
+            </a>
+          </li>
+          </li>
+          <!-- derde item -->
+          <li>
+            <a href="#">
+              <img
+                src="images/360/doomsday-360.jpeg"
+                alt="operation doomsday"
+              />
+              <h3>operation doomsday (vinyl)</h3>
+              <p>$35.00</p>
+            </a>
+          </li>
+          <!-- vierde items -->
+          <li>
+            <a href="#">
+              <img src="images/360/madvilliany-360.webp" alt="madvillainy" />
+              <h3>madvillain - madvillainy</h3>
+              <p>from $16.00</p>
+            </a>
+          </li>
+        </ul>
+        <div>
+          <a href="#">view all</a>
+        </div>
       </section>
-    </section>
-  </main>
-  <footer>
-    <ul>
-      <li>
-        <a href="">Search</a>
-      </li>
-      <li>
-        <a href="">FAQ</a>
-      </li>
-      <li>
-        <button>join the mf doom email list</button>
-      </li>
-      <li>
-        <input type="text" name="Enter your email" id="email" placeholder="Enter your email" />
-      </li>
-    </ul>
-  </footer>
-
-  <script src="scripts/script.js"></script>
-</body>
-
+      <section>
+        <h2>listen</h2>
+        <section>
+          <picture>
+            <source
+              media="(min-width:40em)"
+              srcset="images/spotifyplayer-big.png"
+            />
+            <img
+              src="images/spotifyplayer-small.png"
+              alt="spotify player small"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width:40em)"
+              srcset="images/appleplayer-big.png"
+            />
+            <img src="images/appleplayer-small.png" alt="apple player small" />
+          </picture>
+        </section>
+      </section>
+      <section>
+        <h2>watch</h2>
+        <section>
+          <img
+            src="images/accordion-player-small.png"
+            alt="accordion YouTube player"
+          />
+          <img
+            src="images/guvnor-player-small.png"
+            alt="guvnor YouTube player"
+          />
+          <img
+            src="images/bookhead-player-small.png"
+            alt="bookhead Youtube player"
+          />
+        </section>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="">Search</a>
+        </li>
+        <li>
+          <a href="">FAQ</a>
+        </li>
+        <li>
+          <button>join the mf doom email list</button>
+        </li>
+        <li>
+          <input
+            type="text"
+            name="Enter your email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </li>
+      </ul>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
