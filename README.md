@@ -167,7 +167,7 @@ er op het element getabbed wordt.
 hieronder is het momentele verschil tussen de default- en focus-state te zien:
  
 <img src="images/before-focus-button.png" width="150px" alt="button before focus">
-<img src="images/after-focus-button.png" width="150px" alt="button after focus">
+<img src="images/after-focus-button2.png" width="150px" alt="button after focus">
 
 
 #### tabben naar links in het hamburgermenu wanneer deze niet zichtbaar zijn. 
