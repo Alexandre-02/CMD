@@ -183,7 +183,7 @@ main a {
 }
 
 /* styling view all button */
-.homepagemain section div a {
+.homepage main section div a {
   color: var(--buttonTextColor);
   background-color: var(--primaryColor);
   width: 7em;
@@ -218,7 +218,7 @@ main section div :focus {
   display: grid;
   /* meeschalen van de fake vids doet het anders niet */
   /* justify-items: center; */
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 1em;
   margin: 1em;
 }
@@ -266,7 +266,7 @@ footer ul li a {
 
 footer ul li input {
   border: none;
-  border-bottom: 0.1em solid black;
+  border-bottom: 0.1em solid var(--primaryColor);
   background-color: transparent;
   padding-bottom: 1em;
   width: 70%;
@@ -279,14 +279,6 @@ footer ul li input::placeholder {
 }
 
 /* 2e pagina (mm..food) */
-
-/* .detailPagina main>section vervangen met media@ */
-.detailPagina main section {
-  display: grid;
-  margin-bottom: 3em;
-  /* door dit wordt de afbeelding te breed */
-  /* grid-template-columns: repeat(auto-fit, minmax(30em, 1fr)); */
-}
 
 .detailPagina h2 {
   text-transform: uppercase;
@@ -414,10 +406,15 @@ main section section h2 {
 
   .detailPagina main>section>section img{
     position: sticky;
-    top: 0;
+    top: 4em;
   }
 
+  /* genoeg witruimte voor outline wanneer je tabt */
+  .detailPagina main section section:nth-of-type(2) {
+    margin-left: .2em;
+  }
 }
+
 
 @media (max-width: 50em) {
   /* h2 centreren onder de 50em */
@@ -427,10 +424,13 @@ main section section h2 {
 
   .detailPagina main section section div:first-of-type{
     display: flex;
-    align-items: center;  
-    background-color: aqua;
+    justify-content: center;  
   }
 
+  .detailPagina main section section div:first-of-type button{
+    margin-left: .25em;
+    margin-right: .25em;
+  }
 
 
   /* beter positioneren van h2 en parents */
@@ -492,7 +492,3 @@ main section section h2 {
     padding-left: 0;
   }
 }
-
-/* 
-- op iphone 5 scherm staan alles niet meer goed
-*/
