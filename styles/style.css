@@ -29,6 +29,7 @@ header nav {
   background-color: var(--backgroundColor);
   width: 100%;
   display: grid;
+  z-index: 100;
 }
 
 header nav > ul {
@@ -411,10 +412,9 @@ main section section h2 {
     grid-template-columns: 1.5fr 1fr;
   }
 
-  .detailPagina main>section>section{
+  .detailPagina main>section>section img{
     position: sticky;
-    top: 200px;
-   
+    top: 0;
   }
 
 }
@@ -425,17 +425,13 @@ main section section h2 {
     text-align: center;
   }
 
-  .detailPagina .detailPagina main section section div:nth-of-type(2){
+  .detailPagina main section section div:first-of-child{
     display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* justify-items: center; */
-    justify-content:center ;
+    align-items: center;  
+    background-color: aqua;
   }
 
-  /* .detailPagina main button{
-    
-  } */
+
 
   /* beter positioneren van h2 en parents */
   .detailPagina main section section h2 {
