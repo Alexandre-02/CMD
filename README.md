@@ -246,13 +246,20 @@ Er zijn een aantal dingen geweest waar ik kort mee vast liep, gelukkig is alles 
 - Het goed opmaken van de scrollbar op de detailpagina. Ik had eerst een regel code waarmee ik probeerde de gehele scrollbar mbv flex-box op groot scherm te 
  centreren. Het probleem hiermee was alleen dat als ik terug ging naar een klein scherm dat de scrollbar dan in het midden zou beginnen en dat hierdoor niet 
  alle elementen zichtbaar zouden zijn, zelfs wanneer je naar links of rechts scrolled. De oplossing was dus zo simpel als 'justify-content: center;' te verwijderen.
- <img src="images/scrollbar-code.png" width="500px" alt="scrollbar met bijhorende code">
+ <img src="images/scrollbar-code.png" width="600px" alt="scrollbar met bijhorende code">
  
 - Het vastzetten van album cover foto op de detailpagina. Ik wist in dit geval wel al met welke tools ik alles kon oplossen maar toch lukte het niet helemaal. 
  Ik was van plan de section (laten we deze 'section 1' noemen) waarin de img zich bevond position: sticky; mee te geven. Op deze manier wilde ik er voor zorgen dat de img steeds in beeld bleef tijdens het scrollen en daarna samen met de content uit de parent van section 1 weer samen weg te scrollen is. Dit idee leed tot een aantal problemen, zo plaatsde de afbeelding zich boven de header en bleek het dat ik niet 'section 1' moest selecteren maar de img zelf. Samen met Juul Vrasdonk ben ik er wel goed uitgekomen. Samen zijn we er achter gekomen welk element we position sticky moesten geven en de oplossing voor dat de afbeelding zich boven de header plaatsde wist ik al. Dit is uiteraad te fixen met z-index. 
- <img src="images/sticky-code.png" width="500px" alt="img met position sticky en de bijbehorende code">
+ <img src="images/sticky-code.png" width="600px" alt="img met position sticky en de bijbehorende code">
 
-
+- Ik had voor deze week nog geen media qeury gebruikt. Ik dacht dat het allemaal erg lastig zou zijn, maar ik vond het juist duidelijk en goed gaan. Ik heb er ook veel    gebruik van kunnen maken. 
+ 
+- Ook heb ik weer gebruik gemaakt van picture en source dit heb ik gebruikt voor de afbeeldingen in de scrollbar. Zo zijn de afbeeldingen zowel op desktop als op mobile de juiste grootte. 
+ 
+- Ik had voorheen in het algemeen nog wel een beetje moeite met de juiste selectors kiezen, deze week vond ik dit heel snel gaan en had ik in één keer vaak al het juiste element geselecteerd zonder gebruik te maken van classes. Hier was ik wel blij mee.
+ 
+- Ik heb deze week ook nogmaals gechecked of alles toegankelijk was en naar mijn mening is dat het wel. Ik heb niet echt de states gestyled aangezien ik de keuze heb gemaakt voor de responsive kant, ondanks dat heb ik er wel rekening mee gehouden dat alles toegankelijk bleef. Zo heb ik hier en daar bv aria-hidden='true' en aria-label='...'
+ 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
