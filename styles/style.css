@@ -410,6 +410,13 @@ main section section h2 {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
   }
+
+  .detailPagina main>section>section{
+    position: sticky;
+    top: 200px;
+   
+  }
+
 }
 
 @media (max-width: 50em) {
