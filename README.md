@@ -275,19 +275,20 @@ hier screenshots van mijn eindresultaat voor mobiel-scherm
  
 </details>
 
-
-
-
-
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
+<summary>Een lijst met de bronnen die ik heb gebruikt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+- https://css-tricks.com/accessible-svgs/
+- Om kennis van flex-box weer even op te doen: https://flexboxfroggy.com/#nl 
+- https://dlo.mijnhva.nl/content/enforced/324287-FDMCI-2000FED121-DMCI-CMD-2122/FED%2021-22%20-%20Blok%201%20-%20Oefening%20JS%203-stap.pdf
+- https://www.w3schools.com/tags/att_source_srcset.asp
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+- https://www.sinds1971.nl/fed/humpty/
+- Daan Ketelaars heeft me geholpen met het hamburgermenu, hij had als uitleg deze pen gemaakt: https://codepen.io/AlexandreCMD/pen/bGRxNMd 
+- https://stackoverflow.com/questions/49880534/how-to-make-3-column-css-grid-change-into-1-column-on-mobiles-with-media-query
+- https://codepen.io/AlexandreCMD/pen/MWoZVwE 
+- En uiteraard https://gasdrawls.com/ voor alle content
 
 </details>
