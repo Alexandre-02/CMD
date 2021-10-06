@@ -425,7 +425,7 @@ main section section h2 {
     text-align: center;
   }
 
-  .detailPagina main section section div:first-of-child{
+  .detailPagina main section section div:first-of-type{
     display: flex;
     align-items: center;  
     background-color: aqua;
