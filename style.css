@@ -18,7 +18,7 @@
   --altTextColor: #111111;
   --altBackgroundColor: lightgray;
   --altButtonBackgroundColor: white;
-  --paypalBackgroundColor: ocre;
+  --paypalBackgroundColor: gold;
   --paypalTextColor: blue;
 }
 
@@ -182,7 +182,7 @@ main a {
 }
 
 /* styling view all button */
-main section div a {
+.homepagemain section div a {
   color: var(--buttonTextColor);
   background-color: var(--primaryColor);
   width: 7em;
@@ -200,7 +200,7 @@ main section div a {
 }
 
 /* hover van de view all a */
-main section div :hover {
+.homepage main section div :hover {
   color: var(--altTextColor);
   background-color: var(--altBackgroundColor);
 }
@@ -294,11 +294,11 @@ footer ul li input::placeholder {
   margin-top: 1.5em;
 }
 
-main section section h2{
+main section section h2 {
   padding-top: 1em;
 }
 
-.detailPagina main>h2{
+.detailPagina main > h2 {
   text-align: center;
   margin: 2em 0 1em 0;
 }
@@ -342,17 +342,16 @@ main section section h2{
   border: 1px solid var(--primaryColor);
   background-color: var(--altButtonBackgroundColor);
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-weight: 600;
 }
 
 /* 2e button v 2e set */
 .detailPagina main section section div:nth-of-type(2) button:nth-of-type(2) {
-  /* background-color: var(--paypalBackgroundColor); */
-  background-color: gold ;
+  background-color: var(--paypalBackgroundColor);
   color: var(--paypalTextColor);
   font-weight: 600;
-  border:none;
+  border: none;
 }
 
 .detailPagina main section section div:nth-of-type(2) button:last-of-type {
@@ -361,45 +360,78 @@ main section section h2{
   margin-bottom: 1em;
 }
 
+.detailPagina main section section div:nth-of-type(2) button:last-of-type :hover{
+  border-bottom: 1px solid var(--primaryColor);
+}
+
 /* scroll voor items 'you may also like'*/
-.detailPagina main ul{
+.detailPagina main ul {
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
-  justify-content: center;
+  margin-right: 1em;
 }
 
-.detailPagina main ul li{
+.detailPagina main ul li {
   padding-left: 1em;
   list-style: none;
 }
 
-.detailPagina h3{
-  margin: .5em 0 .5em 0
+.detailPagina h3 {
+  margin: 0.5em 0 0.5em 0;
 }
 
-/* 
-- op iphone 5 scherm staan alles niet meer goed
-- mm..food img pakt niet de max-width 100%
-- als ik op regel 177 .homepage toevoeg dan verwijnt de tekst op de view all button
-*/
+/* prijs */
+.detailPagina h4 {
+  padding-top: 1em;
+  font-weight: 100;
+  font-size: 1.2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--primaryColor);
+  width: 95%;
+}
+
+/* format */
+.detailPagina h5 {
+  padding-top: 1em;
+  font-weight: 100;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.detailPagina main section section article p:last-of-type{
+  font-weight: bolder;
+}
 
 /* gridden van img en rest vd content op de detailpagina  */
 @media (min-width: 50em) {
   .detailPagina main > section {
     display: grid;
-    grid-template-columns: 1.75fr 1fr;
-    /* margin-bottom: 0; */
-  }  
+    grid-template-columns: 1.5fr 1fr;
+  }
 }
 
-/* h2 centreren onder de 43em */
 @media (max-width: 50em) {
-  .detailPagina h2 {
+  /* h2 centreren onder de 50em */
+  .detailPagina h2, h4, h5 {
     text-align: center;
   }
 
-  .detailPagina main section section h2{
+  .detailPagina .detailPagina main section section div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-items: center; */
+    justify-content:center ;
+  }
+
+  /* .detailPagina main button{
+    
+  } */
+
+  /* beter positioneren van h2 en parents */
+  .detailPagina main section section h2 {
     margin-top: 0;
     padding-top: 0;
   }
@@ -407,7 +439,7 @@ main section section h2{
     margin-left: 1em;
   }
 
-  .detailPagina main section{
+  .detailPagina main section {
     margin-bottom: 0;
   }
 }
@@ -457,3 +489,7 @@ main section section h2{
     padding-left: 0;
   }
 }
+
+/* 
+- op iphone 5 scherm staan alles niet meer goed
+*/
