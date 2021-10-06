@@ -236,10 +236,20 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+<summary> Ik ben eigenlijk wel erg tevreden hoe het hele vak, maar voornamelijk de laatste week is verlopen. Ik kwam er steeds meer zonder hulp/dingen te moeten
+opzoeken uit. En wanneer ik ergens niet helemaal uit kwam kon ik altijd nog de student-assistenten om hulp vragen, wat ik prettig vond. De opdrachten die op dlo
+staan met de uitwerking hebben mij ook meer inzicht gegeven over de stof en hoe ik zelf te werk kan gaan. 
+ </summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Er zijn een aantal dingen geweest waar ik kort mee vast liep, gelukkig is alles uiteindelijk wel gelut hieronder is hier een korte opsomming van gemaakt.
+- Het goed opmaken van de scrollbar op de detailpagina. Ik had eerst een regel code waarmee ik probeerde de gehele scrollbar mbv flex-box op groot scherm te 
+ centreren. Het probleem hiermee was alleen dat als ik terug ging naar een klein scherm dat de scrollbar dan in het midden zou beginnen en dat hierdoor niet 
+ alle elementen zichtbaar zouden zijn, zelfs wanneer je naar links of rechts scrolled. De oplossing was dus zo simpel als 'justify-content: center;' te verwijderen.
+ <img src="images/scrollbar-code.png" width="250px" alt="scrollbar met bijhorende code">
+- 
+
 
 ### Screenshot(s)
 
