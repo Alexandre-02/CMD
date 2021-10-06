@@ -262,8 +262,16 @@ Er zijn een aantal dingen geweest waar ik kort mee vast liep, gelukkig is alles 
  
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+hier screenshots van mijn eindresultaat voor desktop-scherm
 
+ <img src="images/homepage-fullscreen.png" alt="foto van het volledige scherm van de homepagina op desktop formaat">
+ <img src="images/detailpagina-fullscreen.png" alt="foto van het volledige scherm van de detailpagina op desktop formaat">
+ 
+hier screenshots van mijn eindresultaat voor mobiel-scherm
+ <img src="images/homepage-mobile.png" alt="foto van het volledige scherm van de homepagina op mobiel formaat">
+ <img src="images/detailpagina-mobile.png" alt="foto van het volledige scherm van de detailpagina op mobiel formaat">
+ 
+ 
 </details>
 
 
