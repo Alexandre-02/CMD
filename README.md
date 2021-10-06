@@ -242,13 +242,15 @@ staan met de uitwerking hebben mij ook meer inzicht gegeven over de stof en hoe 
  </summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 Er zijn een aantal dingen geweest waar ik kort mee vast liep, gelukkig is alles uiteindelijk wel gelut hieronder is hier een korte opsomming van gemaakt.
 - Het goed opmaken van de scrollbar op de detailpagina. Ik had eerst een regel code waarmee ik probeerde de gehele scrollbar mbv flex-box op groot scherm te 
  centreren. Het probleem hiermee was alleen dat als ik terug ging naar een klein scherm dat de scrollbar dan in het midden zou beginnen en dat hierdoor niet 
  alle elementen zichtbaar zouden zijn, zelfs wanneer je naar links of rechts scrolled. De oplossing was dus zo simpel als 'justify-content: center;' te verwijderen.
- <img src="images/scrollbar-code.png" width="250px" alt="scrollbar met bijhorende code">
-- 
+ <img src="images/scrollbar-code.png" width="500px" alt="scrollbar met bijhorende code">
+ 
+- Het vastzetten van album cover foto op de detailpagina. Ik wist in dit geval wel al met welke tools ik alles kon oplossen maar toch lukte het niet helemaal. 
+ Ik was van plan de section (laten we deze 'section 1' noemen) waarin de img zich bevond position: sticky; mee te geven. Op deze manier wilde ik er voor zorgen dat de img steeds in beeld bleef tijdens het scrollen en daarna samen met de content uit de parent van section 1 weer samen weg te scrollen is. Dit idee leed tot een aantal problemen, zo plaatsde de afbeelding zich boven de header en bleek het dat ik niet 'section 1' moest selecteren maar de img zelf. Samen met Juul Vrasdonk ben ik er wel goed uitgekomen. Samen zijn we er achter gekomen welk element we position sticky moesten geven en de oplossing voor dat de afbeelding zich boven de header plaatsde wist ik al. Dit is uiteraad te fixen met z-index. 
+ <img src="images/sticky-code.png" width="500px" alt="img met position sticky en de bijbehorende code">
 
 
 ### Screenshot(s)
